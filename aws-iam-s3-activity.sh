@@ -32,6 +32,8 @@ fi
 AWS_ACCESS_KEY_ID=$(echo "${creds}" | jq -r .AccessKey.AccessKeyId)
 AWS_SECRET_ACCESS_KEY=$(echo "${creds}" | jq -r .AccessKey.SecretAccessKey)
 
+KEY=$AWS_ACCESS_KEY_ID
+
 # Here we start using the new account profile and creds
 echo ""
 echo "${grn}Creating a new S3 bucket...${end}"
