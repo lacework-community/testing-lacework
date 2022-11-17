@@ -1,6 +1,7 @@
 # Lacework Testing Scripts
 
 ## Summary
+
 These scripts allow for easy testing against both:
 
 - Control planes such as AWS and K8s
@@ -12,7 +13,6 @@ A strong security program should include detection of:
 - *Anomalous behaviors* that cannot be caught by signature detections only
 
 It is very important to treat a test as real-world as possible.  In other words, launching an attack against yourself should always be done on hosts running real workloads, with existing baselined traffic.
-
 
 ## AWS Testing Scenarios
 

